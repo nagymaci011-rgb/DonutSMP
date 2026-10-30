@@ -1,0 +1,88 @@
+# DonutCore configuration
+
+sidebar-title: "&6&lDONUT SMP"
+sidebar-footer: "&7play.example.com"
+
+economy:
+  starting-balance: 1000
+
+teleport:
+  delay-seconds: 3        # standing-still countdown for /rtp, /spawn, /tpa (staff skip it)
+
+rtp:
+  world: world
+  min-radius: 250
+  max-radius: 5000
+  cooldown-seconds: 30
+
+auction:
+  max-listings: 5
+  max-price: 1000000000000
+  duration-hours: 48
+  tax-percent: 0
+
+combat:
+  seconds: 20
+  allowed-commands: [msg, tell, w, r, reply, whisper]
+
+ranks:
+  member:
+    prefix: "&7[Member] "
+  staff:
+    prefix: "&b[Staff] "
+  admin:
+    prefix: "&c[Admin] "
+  owner:
+    prefix: "&4[Owner] "
+
+# Price per single item. Only plain items (no custom name/lore) can be sold.
+sell-prices:
+  COAL: 5
+  CHARCOAL: 4
+  RAW_COPPER: 3
+  COPPER_INGOT: 4
+  RAW_IRON: 12
+  IRON_INGOT: 15
+  RAW_GOLD: 22
+  GOLD_INGOT: 30
+  LAPIS_LAZULI: 8
+  REDSTONE: 5
+  QUARTZ: 8
+  AMETHYST_SHARD: 10
+  EMERALD: 100
+  DIAMOND: 250
+  NETHERITE_SCRAP: 500
+  NETHERITE_INGOT: 2500
+  COBBLESTONE: 0.5
+  DEEPSLATE: 0.5
+  STONE: 0.8
+  OAK_LOG: 3
+  SPRUCE_LOG: 3
+  BIRCH_LOG: 3
+  JUNGLE_LOG: 3
+  ACACIA_LOG: 3
+  DARK_OAK_LOG: 3
+  CHERRY_LOG: 3
+  MANGROVE_LOG: 3
+  WHEAT: 3
+  CARROT: 2
+  POTATO: 2
+  BEETROOT: 2
+  MELON_SLICE: 1
+  PUMPKIN: 3
+  SUGAR_CANE: 2
+  CACTUS: 2
+  BAMBOO: 1
+  NETHER_WART: 4
+  BONE: 3
+  STRING: 3
+  GUNPOWDER: 8
+  SPIDER_EYE: 4
+  ROTTEN_FLESH: 1
+  SLIME_BALL: 10
+  BLAZE_ROD: 25
+  ENDER_PEARL: 50
+  GHAST_TEAR: 100
+  PHANTOM_MEMBRANE: 20
+  SHULKER_SHELL: 150
+  NETHER_STAR: 5000

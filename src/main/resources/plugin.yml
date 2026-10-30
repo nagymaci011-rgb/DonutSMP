@@ -1,0 +1,54 @@
+name: DonutCore
+version: ${version}
+main: hu.donutcore.DonutCore
+api-version: '26.1'
+description: Donut SMP style survival core (economy, sell, auction house, RTP, combat tag, ranks)
+
+commands:
+  balance:
+    description: Show your balance
+    aliases: [bal, money]
+  pay:
+    description: Pay another player
+  baltop:
+    description: Richest players
+    aliases: [balancetop]
+  eco:
+    description: Admin economy command
+  shards:
+    description: Show shards
+  sell:
+    description: Open the sell menu
+  ah:
+    description: Auction house
+    aliases: [auction, auctionhouse]
+  rtp:
+    description: Random teleport
+    aliases: [randomtp]
+  spawn:
+    description: Teleport to spawn
+  setspawn:
+    description: Set the spawn point
+  tpa:
+    description: Request a teleport to a player
+  tpaccept:
+    description: Accept a teleport request
+  tpdeny:
+    description: Deny a teleport request
+  rank:
+    description: Show or set a player's rank
+  mute:
+    description: Mute a player
+  unmute:
+    description: Unmute a player
+
+permissions:
+  donutcore.staff:
+    description: Staff commands (mute, unmute)
+    default: op
+  donutcore.admin:
+    description: Admin commands (eco, setspawn)
+    default: op
+  donutcore.owner:
+    description: Owner commands (rank)
+    default: op
